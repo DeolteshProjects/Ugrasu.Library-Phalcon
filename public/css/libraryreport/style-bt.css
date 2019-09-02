@@ -1,0 +1,9 @@
+.main-content {
+    position: inherit;
+    float: top;
+    margin-left: 1%;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    overflow: hidden;
+}

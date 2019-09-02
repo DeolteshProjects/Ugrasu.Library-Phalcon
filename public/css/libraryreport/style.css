@@ -1,0 +1,320 @@
+.main-content {
+    position: relative;
+    float: left;
+    margin-left: 1%;
+    width: 100%;
+    min-width: 100%;
+}
+
+.col {
+    position: flex;
+    float: left;
+    width: auto;
+    min-width: 16%; 
+}
+
+.col-md-12 {
+    position: flex;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    width: auto; 
+    min-width: 98%;
+}
+
+.col-md-4 {
+    position: relative;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    max-width: 32%;
+    width: 32%;
+}
+
+.col-md-8 {
+    position: relative;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    max-width: 64%;
+    width: 64%;
+}
+
+.wrapper {
+    position: relative;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 1% 2% 1% 2%;
+    padding: 1%;
+}
+
+.navbar {
+    position: relative;
+    float: top;
+    width: 100%;
+}
+
+.nav {
+    padding: 1%;
+}
+
+.nav-list {
+
+}
+
+.nav-list-item {
+    display: inline;
+}
+
+.modules-header {
+    position: relative;
+    float: top;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.header-title {
+    font-family: "Monotype Corsiva" Cursive;
+    text-align: center;
+}
+
+.header-title .title {
+    color: #808080;
+}
+
+.modules-content {
+    position: relative;
+    float: top;
+    width: 100%;
+}
+
+
+.block-search-form {
+    margin: 1% 0 0 0;
+    height: auto;
+    border: 1px solid #808080;
+}
+
+.block-create-form {
+    margin: 1% 0 0 0;
+    height: auto;
+    border: 1px solid #808080;
+    text-align: center;
+}
+
+.block-search-result {
+    margin: 1% 0 0 0;
+    height: auto;
+    max-height: 550px;
+    border: none;
+    overflow-x: none;
+    overflow-y: auto; 
+}
+
+#result-table {
+    position: relative;
+    float: left;
+    text-align: top;
+    border: none;
+}
+
+#result-table tr {
+    border: 1px solid;
+    padding: 1%;
+    border-radius: 100%;
+}
+
+#result-table tr td {
+    border: 1px solid;
+    font-size: 80%;
+}
+
+.td_left {
+}
+
+.td_right {
+}
+
+.form-title {
+    position: relative;
+    float: top;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.form-control {
+    position: relative;
+    float: left;
+    text-align: left;
+    padding: 0 1% 0 1%;
+    margin: 0 1% 1% 1%;
+}
+
+.form-control label {
+    margin-left: 1%;
+    width: auto;
+    min-width: 50%;
+    font: bold; 
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+}
+
+.label {
+    padding: 1%;
+    font: bolder;
+}
+
+.input {
+    padding: 1%;
+    border: 1px solid #808080;
+    border-radius: 3px;
+}
+
+.select {
+    /* padding: 25px; */
+    text-align: center;
+    border-radius: 5px;
+}
+
+.input:focus {
+    border: 1px ridge #00bfff;
+}
+
+.small-description {
+    margin-top: 1%; 
+    padding: 1%;
+    position: relative;
+    float: left;
+}
+
+.btn {
+    padding: 1%;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #808080;
+    width: auto;
+}
+
+.btn-small {
+    padding: 3px;
+}
+
+.btn-medium {
+    padding: 5px;
+}
+
+.btn-lg {
+    padding: 8px;
+    font-size: 150%;
+}
+
+.nav-btn {
+    margin: 0;
+}
+
+.nav-btn:active {
+    margin: 0;
+    background: #4285f4;
+}
+
+.text-success-color {
+    color: #00c851;
+}
+
+.text-success-dark {
+    color: #007e33;
+}
+
+.btn-success {
+    background: #5cb85c;
+    border: #5cb85c;
+    color: #fff;
+}
+
+.text-danger-color {
+    color: #ff4444;
+}
+
+.text-danger-dark {
+    color: #cc0000;
+}
+
+.btn-danger {
+    background: #d9534f;
+    border: #d9534f;
+    color: #fff;
+}
+
+.text-warning-color {
+    color: #ffbb33;
+}
+
+.text-warning-dark {
+    color: #ff8800;
+}
+
+.btn-warning {
+    background: #f0ad4e;
+    border: #f0ad4e;
+    color: #fff;
+}
+
+.text-info-color {
+    color: #33b5e5;
+}
+
+.text-info-dark {
+    color: #0099cc;
+}
+
+.btn-info {
+    background: #5bc0de;
+    border: #5bc0de;
+    color: #fff;
+}
+
+.text-default-color {
+    color: #2bbbad;
+}
+
+.text-default-dark {
+    color: #00695c;
+}
+
+.text-primary-color {
+    color: #4285f4;
+}
+
+.text-primary-dark {
+    color: #0d47a1;
+}
+
+.btn-primary {
+    background: #0275d8;
+    border: #0275d8;
+    color: #fff;
+}
+
+.text-secondary-color {
+    color: #aa66cc;
+}
+
+.text-secondary-dark {
+    color: #9933cc;
+}
+
+.btn-secondary {
+    background: #aa66bb;
+    border: #aa66bb;
+    color: #fff;
+}
